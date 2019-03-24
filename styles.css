@@ -2,21 +2,33 @@ body {
   margin: 0;
 }
 
+#myFancyButton {
+  margin: 40px;
+}
+
 .outer {
-  width: 1000px;
-  padding: 10px 15px 10px 10px;
-  height: 1000px;
+  width: 320px;
+  height: 320px;
+  padding: 10px;
   background: purple;
   display: flex;
-  justify-content: space-between;
   margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .inner {
-  width: 150px;
-  height: 150px;
-  background: url("./assets/images/flower.jpeg");
+  width: 50px;
+  height: 50px;
+  background: url("./assets/images/flower.jpeg") 50px 50px;
   position: relative;
+}
+
+.image {
+  width: 75px;
+  height: 75px;
+  margin: 2.5px;
 }
 
 .inner:hover .icon {
